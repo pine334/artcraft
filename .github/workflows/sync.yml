@@ -2,7 +2,7 @@ name: Sync Upstream
 on:
   schedule:
     - cron: '0 0 * * *'
-  workflow_dispatch: # 额外加这个：你可以手动点按钮触发同步，方便调试
+  workflow_dispatch:
 
 jobs:
   sync:
